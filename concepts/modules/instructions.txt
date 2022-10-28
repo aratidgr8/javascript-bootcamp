@@ -1,0 +1,16 @@
+
+/**
+ * To avoid CORS error
+ * We must run index.html like a webserver
+ * Install npm package `serve`
+ * On CLI type command serve
+ * Then index.html will be available on https://localhost:3000
+ * There 2 approaches to this, 1 is es6.js & 2nd common.js
+ * Difference between 2
+        - Common.js is used in node js, this is standard modular system for node.js
+        - Ecmascript modules are used in browser. 
+            - They newer than common js modules
+            - They are static, means you can put them inside if or loop 
+            - But you can't do it inside i/p bcoz i/p must be always at the top or it will bubble to top when JS parses it
+            - It is better from safety POV, to implement different building tools on ES6 modules
+ */
