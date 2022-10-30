@@ -52,6 +52,7 @@ processChange("foo")
 
 /**
  * To summarize `debounce` function allows us to call some function only once after specific time
+ * It is ideal to use debouncing in search bar, lazy loading or API call on scroll events, window resize
  */
 
 
